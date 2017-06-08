@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nikhil Mishra",
@@ -17,11 +17,11 @@
     "flockos": "0.0.6",
     "google-trends-api": "^4.1.0",
     "request": "^2.81.0",
+    "swig": "^1.4.2",
     "twit": "^2.2.5",
     "url": "^0.11.0"
   },
   "engines": {
     "node": "6.10.3"
   }
-
 }
