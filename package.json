@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "node indes.js",
+    "start" : "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nikhil Mishra",
@@ -19,5 +19,9 @@
     "request": "^2.81.0",
     "twit": "^2.2.5",
     "url": "^0.11.0"
+  },
+  "engines": {
+    "node": "6.10.3"
   }
+
 }
