@@ -296,7 +296,7 @@ flock.events.on('client.slashCommand', function (event, callback) {
 });
 
 // Start the listener after reading the port from config
-var port = config.port || 3000;
+var port = process.env.PORT || 3000;;
 app.listen(port, function () {
     console.log('Listenineg on port: ' + port);
 });
