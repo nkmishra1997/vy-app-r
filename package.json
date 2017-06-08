@@ -1,0 +1,22 @@
+{
+  "name": "vy-app-r",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikhil Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.2.0",
+    "body-parser": "^1.17.1",
+    "consolidate": "^0.14.5",
+    "express": "^4.15.2",
+    "flockos": "0.0.6",
+    "google-trends-api": "^4.1.0",
+    "request": "^2.81.0",
+    "twit": "^2.2.5",
+    "url": "^0.11.0"
+  }
+}
